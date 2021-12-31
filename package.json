@@ -1,0 +1,27 @@
+{
+  "name": "@xmpp/component-core",
+  "description": "Aria Network fork of the XMPP component core for JavaScript",
+  "repository": "github:maranda/aria-net-component-core",
+  "homepage": "https://github.com/maranda/aria-net-component-core",
+  "bugs": "http://github.com/maranda/aria-net-component-core/issues",
+  "version": "0.12.0",
+  "license": "ISC",
+  "keywords": [
+    "XMPP",
+    "component",
+    "core",
+    "TLS"
+  ],
+  "dependencies": {
+    "@xmpp/connection-tcp": "^0.12.0",
+    "@xmpp/jid": "^0.12.0",
+    "@xmpp/xml": "^0.12.0"
+  },
+  "engines": {
+    "node": ">= 12.4.0",
+    "yarn": ">= 1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
